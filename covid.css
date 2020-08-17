@@ -1,0 +1,56 @@
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+  bottom: .5em;
+}
+
+
+#mainbody {
+  background-color: rgb(108, 108, 143);
+ 
+}
+
+h1 {
+  color: rgb(37, 80, 145);
+  text-align: center;
+}
+
+#datarow{
+  background-color: rgb(103, 107, 109);
+
+}
+
+#chatrow{
+  background-color: rgb(180, 209, 226);
+
+}
+
+
+
+#headers{
+  background-color: rgb(0, 183, 255);
+  
+}
+
+
+#messages{
+  height:300px; 
+  overflow-y: auto;
+  
+}
+
+
+#name{
+
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+}

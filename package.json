@@ -1,0 +1,15 @@
+{
+  "name": "covidinfoapp",
+  "version": "1.0.0",
+  "description": "covid data site with a chat function",
+  "main": "newServer.js",
+  "scripts": {
+    "start": "node newServer.js"
+  },
+  "author": "Dominic Ralphs",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.6.0",
+    "socket.io": "^2.3.0"
+  }
+}
