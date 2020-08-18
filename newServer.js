@@ -27,6 +27,7 @@ mongo.connect('mongodb://localhost/' + dbname, function(err,client){
         chat.find().limit(100).sort({_id:1}).toArray(function(err, res){
             if (err){
                 throw err;
+                console.log("no collection found...");
             }
 
             //emit the messges to client 
@@ -37,7 +38,7 @@ mongo.connect('mongodb://localhost/' + dbname, function(err,client){
          countries.find().limit(11).toArray(function(err, res){
             if (err){
                 throw err;
-                console.log("no collection found...")
+                console.log("no collection found...");
             }
             //console.log(res); //test print to make sure the data is being read by the server. 
             //emit the messges to client 
