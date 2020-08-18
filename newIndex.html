@@ -126,7 +126,7 @@
                         for(var x = 0; x < data.length; x++){
                             //build out message div
                             var message = document.createElement('div');
-                            message.setAttribute('class', 'chat-message');
+                            message.setAttribute('class', 'chat-message'); //set the atribute of class as chat message
                             message.textContent = data[x].name + ": " + data[x].message; //display the current name and the current message from that user
                             messages.appendChild(message);//set messages as child elements so they can be displayed
                             messages.insertBefore(message, messages.firstChild); //insert before make the latest chat show on top
