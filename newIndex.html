@@ -150,15 +150,15 @@
                             "<th class=\'countryNewDeaths\'>" + data[i].country_new_deaths + "</th></tr>" );
 
                            
-                            
                         }
-                        $("#countriesSearch").append
-                            ("<option value=\'1\' > " + data[0].country_name + "</option>" );
-                            ("<option value=\'2\' > " + data[1].country_name + "</option>"  );
-                            ("<option value=\'3\' > " + data[2].country_name + "</option>" );
-                    }
                     
+                    }
+                    $("#countriesSearch").append
+                            ("<select class=\'custom-select\' id=\'inputGroupSelect01\'> <option value=\'1\' > " + data[0].country_name + "</option>" +
+                            "<option value=\'2\' > " + data[1].country_name + "</option>"  +
+                            "<option value=\'3\' > " + data[2].country_name + "</option> </select>" );
                             
+                    
 
                 });
                
